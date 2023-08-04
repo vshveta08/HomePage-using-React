@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1620' height='650' preserveAspectRatio='none' viewBox='0 0 1920 1650'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1521%26quot%3b)' fill='none'%3e%3cpath d='M185 1650L1835 0L2861 0L1211 1650z' fill='url(%26quot%3b%23SvgjsLinearGradient1522%26quot%3b)'%3e%3c/path%3e%3cpath d='M1838 1650L188 0L-1529.5 0L120.5 1650z' fill='url(%26quot%3b%23SvgjsLinearGradient1523%26quot%3b)'%3e%3c/path%3e%3cpath d='M661.8495289698083 1650L1920 391.84952896980826L1920 1650z' fill='url(%26quot%3b%23SvgjsLinearGradient1522%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 1650L1258.1504710301917 1650L 0 391.84952896980826z' fill='url(%26quot%3b%23SvgjsLinearGradient1523%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1521'%3e%3crect width='1920' height='1650' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1522'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1523'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1520' height='650' preserveAspectRatio='none' viewBox='0 0 1620 650'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1145%26quot%3b)' fill='none'%3e%3cpath d='M36 650L686 0L998 0L348 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1146%26quot%3b)'%3e%3c/path%3e%3cpath d='M623.6 650L1273.6 0L1893.1 0L1243.1 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1146%26quot%3b)'%3e%3c/path%3e%3cpath d='M1577 650L927 0L648 0L1298 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1147%26quot%3b)'%3e%3c/path%3e%3cpath d='M1079.4 650L429.4000000000001 0L-322.0999999999999 0L327.9000000000001 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1147%26quot%3b)'%3e%3c/path%3e%3cpath d='M1073.5249768201154 650L1620 103.5249768201154L1620 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1146%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 650L546.4750231798846 650L 0 103.5249768201154z' fill='url(%26quot%3b%23SvgjsLinearGradient1147%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1145'%3e%3crect width='1620' height='650' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1146'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1147'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1820' height='650' preserveAspectRatio='none' viewBox='0 0 1520 650'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1160%26quot%3b)' fill='none'%3e%3cpath d='M69 650L719 0L992 0L342 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1161%26quot%3b)'%3e%3c/path%3e%3cpath d='M520.6 650L1170.6 0L1536.6 0L886.6 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1161%26quot%3b)'%3e%3c/path%3e%3cpath d='M1496 650L846 0L622.5 0L1272.5 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1162%26quot%3b)'%3e%3c/path%3e%3cpath d='M1009.4 650L359.4 0L87.89999999999998 0L737.9 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1162%26quot%3b)'%3e%3c/path%3e%3cpath d='M899.4094885483184 650L1520 29.40948854831845L1520 650z' fill='url(%26quot%3b%23SvgjsLinearGradient1161%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 650L620.5905114516816 650L 0 29.40948854831845z' fill='url(%26quot%3b%23SvgjsLinearGradient1162%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1160'%3e%3crect width='1520' height='650' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1161'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1162'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+.wrapper{
+  height: 100vh;
+  width: 100vw;
+}
+a{
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* this active css for navlink */
+.active{
+  /* padding: 5px 8px; */
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 45px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* border: 1px solid black; */
+  /* border-bottom: 1px solid rgb(152, 152, 152); */
+  /* background-color: rgba(187, 193, 250, 0.664); */
+}
+nav ul{
+  display: flex;
+  justify-content: right;
+  gap: 40px;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  align-items: center;
+  font-weight: 500;
+}
+nav ul li:hover{
+  color: #086bfe;
+}
+ button{
+  /* font-size: 1.02rem;
+  padding: 5px 12px;
+  cursor: pointer; */
+  
+  font-weight: 600;
+  background-color: white;
+  border: 1.4px solid rgb(180, 180, 180);
+  border-radius: 4px;
+  padding: 7px 13px;
+  display: inline-block;
+  /* font-family: "Lucida Console", Monaco, monospace; */
+  font-size: 16px;
+  /* letter-spacing: 1px; */
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #086bfe;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+ button:hover {
+  box-shadow: inset 400px 0 0 0 #2b7ffd;
   color: white;
-}
+  border: 1.4px solid #2b7ffd;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

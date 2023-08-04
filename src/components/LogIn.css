@@ -1,0 +1,105 @@
+.LogIn-wrapper{
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1c8f2;
+}
+.LogIn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    /* background:  #136a8a; */
+    /* background: 
+      -webkit-linear-gradient(to right, #267871, #136a8a);
+    background: 
+      linear-gradient(to right, #267871, #136a8a); */
+
+      background: 
+      -webkit-linear-gradient(to right, #4a8edb, #136a8a);
+    background: 
+      linear-gradient(to right, #4a8edb, #3e3a80);
+    margin: auto;
+    box-shadow: 
+      0px 2px 8px rgba(0,0,0,0.2), 
+      0px 10px 16px rgba(0,0,0,0.3), 
+      0px 30px 70px 1px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 50px 60px;
+
+}
+  .LogIn-container .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LogIn-container .head .company {
+    font-size: 2.2em;
+  }
+  .LogIn-container .msg {
+    text-align: center;
+    margin-top: -20px;
+  }
+  .form form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .LogIn-container .form input {
+    border: none;
+    background: none;
+    box-shadow: 0px 2px 0px 0px white;
+    width: 100%;
+    color: white;
+    font-size: 1.2rem;
+    outline: none;
+    /* padding: 10px 0; */
+  }
+  .LogIn-container .form .text::placeholder {
+    color: #D3D3D3;
+  }
+  .LogIn-container .form input[type=password].password {
+    border: none;
+    background: none;
+    box-shadow: 0px 2px 0px 0px white;
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .LogIn-container .form .password::placeholder {
+    color: #D3D3D3;
+  }
+  /* .LogIn-container .form .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } */
+  .LogIn-container .form .btn-login {
+    background: none;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 0px 0px 2px white;
+    border-radius: 3px;
+    padding: 5px 2em;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(222, 222, 224);
+  }
+  .LogIn-container .form .btn-login:hover {
+    background: white;
+    color: dimgray;
+    transition: 0.5s;
+    
+  }
+  .LogIn-container .forgot {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
