@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HomePage-using-React-InternshipTask/static/css/main.ad4597ed.css",
+    "main.js": "/HomePage-using-React-InternshipTask/static/js/main.78839f35.js",
+    "static/js/787.6ce44be0.chunk.js": "/HomePage-using-React-InternshipTask/static/js/787.6ce44be0.chunk.js",
+    "static/media/JFlogo.png": "/HomePage-using-React-InternshipTask/static/media/JFlogo.c2e4f16dfc16e6ad3909.png",
+    "index.html": "/HomePage-using-React-InternshipTask/index.html",
+    "main.ad4597ed.css.map": "/HomePage-using-React-InternshipTask/static/css/main.ad4597ed.css.map",
+    "main.78839f35.js.map": "/HomePage-using-React-InternshipTask/static/js/main.78839f35.js.map",
+    "787.6ce44be0.chunk.js.map": "/HomePage-using-React-InternshipTask/static/js/787.6ce44be0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad4597ed.css",
+    "static/js/main.78839f35.js"
+  ]
+}
